@@ -3,10 +3,11 @@ import React, { Fragment } from 'react';
 /* components */
 import FeaturedPosts from '../components/home-page/featured-posts';
 import Hero from '../components/home-page/hero';
+import { Post } from '../components/types';
 
 interface Props {}
 
-const DUMMY_POSTS = [
+const DUMMY_POSTS: Post[] = [
   {
     slug: 'getting-started-with-nextjs',
     title: 'Getting Started with NextJS',

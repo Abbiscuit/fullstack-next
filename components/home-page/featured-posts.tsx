@@ -1,6 +1,6 @@
 import React from 'react';
-import { Post } from '../posts/post-item';
 import PostsGrid from '../posts/posts-grid';
+import { Post } from '../types';
 
 import classes from './featured-posts.module.css';
 

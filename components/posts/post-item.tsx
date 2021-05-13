@@ -3,17 +3,11 @@ import Image from 'next/image';
 
 import classes from './post-item.module.css';
 
+import { Post } from '../types';
+
 interface Props {
   post?: Post;
 }
-
-export type Post = {
-  title?: string;
-  image?: string;
-  excerpt?: string;
-  date?: string;
-  slug?: string;
-};
 
 const PostItem = (props: Props) => {
   const {

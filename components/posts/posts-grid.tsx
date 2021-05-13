@@ -1,6 +1,7 @@
 import classes from './posts-grid.module.css';
 
-import PostItem, { Post } from './post-item';
+import PostItem from './post-item';
+import { Post } from '../types';
 
 interface Props {
   posts?: Post[];
