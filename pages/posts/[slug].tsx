@@ -1,13 +1,9 @@
-import React from 'react';
+import PostContent from '../../components/posts/post-detail/post-content';
 
 interface Props {}
 
 const PostDetailPage = (props: Props) => {
-  return (
-    <div>
-      <h1>Post Detail Page</h1>
-    </div>
-  );
+  return <PostContent />;
 };
 
 export default PostDetailPage;
