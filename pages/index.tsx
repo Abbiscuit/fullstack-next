@@ -6,11 +6,42 @@ import Hero from '../components/home-page/hero';
 
 interface Props {}
 
+const DUMMY_POSTS = [
+  {
+    slug: 'getting-started-with-nextjs',
+    title: 'Getting Started with NextJS',
+    image: 'getting-started-nextjs.png',
+    excerpt: 'NextJS is awesome!',
+    date: '2022-02-10',
+  },
+  {
+    slug: 'getting-started-with-nextjs2',
+    title: 'Getting Started with NextJS',
+    image: 'getting-started-nextjs.png',
+    excerpt: 'NextJS is awesome!',
+    date: '2022-02-10',
+  },
+  {
+    slug: 'getting-started-with-nextjs3',
+    title: 'Getting Started with NextJS',
+    image: 'getting-started-nextjs.png',
+    excerpt: 'NextJS is awesome!',
+    date: '2022-02-10',
+  },
+  {
+    slug: 'getting-started-with-nextjs4',
+    title: 'Getting Started with NextJS',
+    image: 'getting-started-nextjs.png',
+    excerpt: 'NextJS is awesome!',
+    date: '2022-02-10',
+  },
+];
+
 const HomePage = (props: Props) => {
   return (
     <Fragment>
       <Hero />
-      <FeaturedPosts />
+      <FeaturedPosts posts={DUMMY_POSTS} />
     </Fragment>
   );
 };
