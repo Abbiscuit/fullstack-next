@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
 
+import FeaturedPosts from '@components/home-page/featured-posts';
+import Hero from '@components/home-page/hero';
+import { Post } from '@components/types';
+
 /* components */
-import FeaturedPosts from '../components/home-page/featured-posts';
-import Hero from '../components/home-page/hero';
-import { Post } from '../components/types';
 
 interface Props {}
 
